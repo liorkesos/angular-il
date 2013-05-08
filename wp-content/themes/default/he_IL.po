@@ -1,0 +1,654 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordress Default Themes\n"
+"Report-Msgid-Bugs-To: ran at ranh.co.il\n"
+"POT-Creation-Date: 2008-07-15 07:51+0300\n"
+"PO-Revision-Date: 2008-07-15 07:52+0200\n"
+"Last-Translator: Ran Yaniv Hartstein <ran at ranh.co.il>\n"
+"Language-Team: Ran Yaniv Hartstein <ran ranh co il>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:5
+msgid "Error 404 - Not Found"
+msgstr "שגיאה 404 - לא מצאתי את מה שרצית"
+
+#: archive.php:9
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "ארכיון פוסטים מהקטגוריה  \"%s\""
+
+#: archive.php:11
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "ארכיון פוסטים עם התג \"%s\""
+
+#: archive.php:13
+#, php-format
+msgid "Archive for %s|Daily archive page"
+msgstr "ארכיון פוסטים מהתאריך \"%s\""
+
+#: archive.php:13
+#: comments.php:37
+#: index.php:11
+msgid "F jS, Y"
+msgstr "j בF, Y"
+
+#: archive.php:15
+#, php-format
+msgid "Archive for %s|Monthly archive page"
+msgstr "ארכיון פוסטים מהחודש \"%s\""
+
+#: archive.php:15
+#: sidebar.php:28
+msgid "F, Y"
+msgstr "F, Y"
+
+#: archive.php:17
+#, php-format
+msgid "Archive for %s|Yearly archive page"
+msgstr "ארכיון פוסטים מהשנה \"%s\""
+
+#: archive.php:17
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:19
+msgid "Author Archive"
+msgstr "ארכיון מחברים"
+
+#: archive.php:21
+msgid "Blog Archives"
+msgstr "ארכיון הבלוג"
+
+#: archive.php:26
+#: archive.php:46
+#: index.php:23
+#: search.php:10
+#: search.php:27
+msgid "&laquo; Older Entries"
+msgstr "&laquo; פוסטים ישנים יותר"
+
+#: archive.php:27
+#: archive.php:47
+#: index.php:24
+#: search.php:11
+#: search.php:28
+msgid "Newer Entries &raquo;"
+msgstr "פוסטים חדשים יותר &raquo;"
+
+#: archive.php:32
+#: index.php:10
+#: search.php:18
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "קישור ישיר לפוסט %s"
+
+#: archive.php:33
+#: attachment.php:28
+#: image.php:25
+#: sidebar.php:25
+#: single.php:27
+msgid "l, F jS, Y"
+msgstr "l, j בF, Y"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+#: single.php:19
+msgid "Tags:"
+msgstr "תגים: "
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+#, php-format
+msgid "Posted in %s"
+msgstr "שייך לקטגוריות %s"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+msgid "Edit"
+msgstr "לערוך"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+msgid "No Comments &#187;"
+msgstr "אין תגובות &#187;"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+msgid "1 Comment &#187;"
+msgstr "תגובה אחת &#187;"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+msgid "% Comments &#187;"
+msgstr "% תגובות &#187;"
+
+#: archive.php:39
+#: index.php:17
+#: search.php:21
+msgid "Comments Closed"
+msgstr "סגור לתגובות"
+
+#: archive.php:52
+#: index.php:29
+msgid "Not Found"
+msgstr "לא מצאתי את מה שחיפשת"
+
+#: archives.php:13
+msgid "Archives by Month:"
+msgstr "ארכיון פוסטים לפי חודשים"
+
+#: archives.php:18
+msgid "Archives by Subject:"
+msgstr "ארכיון פוסטים לפי קטגוריות"
+
+#: attachment.php:14
+#, php-format
+msgid "Permanent Link: %s"
+msgstr "קישור קבוע: %s"
+
+#: attachment.php:18
+#: image.php:13
+#: index.php:14
+#: single.php:16
+msgid "Read the rest of this entry &raquo;"
+msgstr "לקרוא את ההמשך &raquo;"
+
+#: attachment.php:20
+#: image.php:15
+#: page.php:11
+#: single.php:18
+msgid "Pages:"
+msgstr "עמודים:"
+
+#: attachment.php:28
+#: single.php:27
+#, php-format
+msgid "This entry was posted %1$s on %2$s at %3$s and is filed under %4$s."
+msgstr "הפוסט הזה נכתב %1$s בתאריך %2$s בשעה %3$s תחת הקטגוריות %4$s."
+
+#: attachment.php:29
+#: image.php:27
+#: single.php:28
+#, php-format
+msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
+msgstr "אפשר לעקוב אחר התגובות לפוסט הזה באמצעות <a href='%s'>פיד RSS לתגובות</a>."
+
+#: attachment.php:33
+#: image.php:31
+#: single.php:32
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "אפשר <a href=\"#respond\" title=\"לגלול למטה לכתיבת תגובה\">לכתוב כאן תגובה</a>, או לכתוב בבלוג שלך פוסט כתגובה <a href=\"%s\" title=\"כתובת טראקבאק לכתיבת תגובה מבלוג אחר\" rel=\"trackback\">ולשלוח טראקבאק</a>."
+
+#: attachment.php:37
+#: image.php:35
+#: single.php:36
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "הפוסט הזה סגור לתגובות כרגע, אבל אפשר לכתוב פוסט כתגובה בבלוג שלך <a href=\"%s\" title=\"כתובת טראקבאק לכתיבת תגובה מבלוג אחר\" rel=\"trackback\">ולשלוח טראקבאק</a>."
+
+#: attachment.php:41
+#: image.php:39
+#: single.php:40
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "אפשר <a href=\"#respond\" title=\"לגלול למטה לכתיבת תגובה\">להשאיר תגובה</a> כאן בתחית העמוד, אבל אי אפשר כרגע לשלוח פינגים או טראקבאקים"
+
+#: attachment.php:45
+#: image.php:43
+#: single.php:44
+msgid "Both comments and pings are currently closed."
+msgstr "הפוסט הזה סגור כרגע לתגובות ולטראקבאקים"
+
+#: attachment.php:47
+#: image.php:45
+#: page.php:16
+msgid "Edit this entry."
+msgstr "לערוך את הפוסט הזה"
+
+#: attachment.php:59
+msgid "Sorry, no attachments matched your criteria."
+msgstr "לא מצאתי כאן שום דבר כזה."
+
+#: comments-popup.php:9
+#, php-format
+msgid "%1$s - Comments on %2$s"
+msgstr "%1$s - תגובות על %2$s"
+
+#: comments-popup.php:22
+msgid "Comments"
+msgstr "תגובות"
+
+#: comments-popup.php:24
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr "פיד <abbr title=\"Really Simple Syndication\">RSS</abbr> של התגובות לסיפור הזה"
+
+#: comments-popup.php:27
+#, php-format
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is: <em>%s</em>"
+msgstr "כתובת לשליחת טראקבאקים לפוסט הזה: <em>%s</em>"
+
+#: comments-popup.php:45
+msgid "Comment"
+msgstr "תגובה"
+
+#: comments-popup.php:45
+msgid "Trackback"
+msgstr "טראקבאק"
+
+#: comments-popup.php:45
+msgid "Pingback"
+msgstr "פינגבאק"
+
+#: comments-popup.php:45
+#, php-format
+msgid "by %1$s &#8212; %2$s @ <a href=\"#comment-%3$s\">%4$s</a>"
+msgstr "מאת %1$s &#8212; %2$s בשעה <a href=\"#comment-%3$s\">%4$s</a>"
+
+#: comments-popup.php:51
+msgid "No comments yet."
+msgstr "עדיין אין תגובות"
+
+#: comments-popup.php:55
+msgid "Leave a comment"
+msgstr "לכתוב תגובה"
+
+#: comments-popup.php:56
+#, php-format
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: <code>%s</code>"
+msgstr "חלוקה אוטומטית לשורות ופסקאות, כתובת הדואל לא תוצג לעולם, תגי <acronym title=\"Hypertext Markup Language\">HTML</acronym> מותרים: <code>%s</code>"
+
+#: comments-popup.php:60
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "שלום <a href=\"%1$s\">%2$s</a>. או שלא? <a href=\"%3$s\" title=\"לצאת ולהכנס למערכת בשם אחר\">להכנס בשם אחר &raquo;</a>"
+
+#: comments-popup.php:64
+#: comments.php:82
+msgid "Name"
+msgstr "שם"
+
+#: comments-popup.php:71
+msgid "E-mail"
+msgstr "כתובת דואל"
+
+#: comments-popup.php:76
+msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr "אתר"
+
+#: comments-popup.php:81
+msgid "Your Comment"
+msgstr "התגובה שלך"
+
+#: comments-popup.php:87
+msgid "Say It!"
+msgstr "להגיב!"
+
+#: comments-popup.php:92
+msgid "Sorry, the comment form is closed at this time."
+msgstr "הפוסט הזה סגור לתגובות כרגע."
+
+#: comments-popup.php:97
+msgid "Close this window."
+msgstr "לסגור את החלון הזה"
+
+#: comments-popup.php:105
+#, php-format
+msgid "Powered by <a href=\"%s\" title=\"Powered by WordPress, state-of-the-art semantic personal publishing platform\"><strong>Wordpress</strong></a>"
+msgstr "פועל <a id=\"%s\" href=\"http://wph.co.il/\"><strong>וורדפרס בעברית<strong></a>,  מערכת אישית בקוד פתוח לניהול בלוגים עצמאיים"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "הפוסט הזה מוגן בסיסמה. צריך סיסמה כדי לראות את התגובות."
+
+#: comments.php:23
+msgid "No Responses"
+msgstr "אין תגובות"
+
+#: comments.php:23
+msgid "One Response"
+msgstr "תגובה אחת"
+
+#: comments.php:23
+msgid "% Responses"
+msgstr "% תגובות"
+
+#: comments.php:23
+#, php-format
+msgid "to &#8220;%s&#8221;"
+msgstr "לפוסט \"%s\""
+
+#: comments.php:31
+#, php-format
+msgid "<cite>%s</cite> Says:"
+msgstr "מאת <cite>%s</cite>:"
+
+#: comments.php:33
+msgid "Your comment is awaiting moderation."
+msgstr "התגובה שלך ממתינה לאישור."
+
+#: comments.php:37
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s בשעה %2$s"
+
+#: comments.php:37
+msgid "edit"
+msgstr "לערוך"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "הפוסט הזה סגור לתגובות כרגע."
+
+#: comments.php:67
+msgid "Leave a Reply"
+msgstr "לכתוב תגובה"
+
+#: comments.php:70
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "צריך <a href=\"%s\">להכנס למערכת</a> בשביל להשאיר תגובה."
+
+#: comments.php:77
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "שלום <a href=\"%1$s\">%2$s</a>."
+
+#: comments.php:77
+msgid "Log out of this account"
+msgstr "לצאת מהמערכת ולהכנס בשם אחר"
+
+#: comments.php:77
+msgid "Log out &raquo;"
+msgstr "לצאת &raquo;"
+
+#: comments.php:82
+#: comments.php:85
+msgid "(required)"
+msgstr "(חובה)"
+
+#: comments.php:85
+msgid "Mail (will not be published)"
+msgstr "דואל (לא יוצג בשום מקום)"
+
+#: comments.php:88
+msgid "Website"
+msgstr "אתר"
+
+#: comments.php:92
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong> אפשר להשתמש בתגים הללו: <code>%s</code>"
+
+#: comments.php:96
+msgid "Submit Comment"
+msgstr "להגיב"
+
+#: footer.php:6
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"http://wph.co.il\" title=\"וורדפרס בעברית, מערכת אישית בקוד פתוח לניהול בלוגים עצמאיים\">וורדפרס בעברית</a>"
+msgstr "%1$s פועל על <a href=\"http://wph.co.il\" title=\"וורדפרס בעברית, מערכת אישית בקוד פתוח לניהול בלוגים עצמאיים\">וורדפרס בעברית</a>"
+
+#: footer.php:7
+msgid "Designed by <a href=\"http://binarybonsai.com/kubrick/\">Michael Heilemann</a>"
+msgstr "עיצוב מאת <a href=\"http://binarybonsai.com/kubrick/\" title=\"הבלוג של מיכאל הילמן, מפתח משחקים והמעצב של הבלוג הזה\">מיכאל הילמן</a> והתאמה לעברית מאת <a href=\"http://ranh.co.il/\" title=\"הבלוג של רן יניב הרטשטיין, כתב ומפתח\">רן יניב הרטשטיין</a>"
+
+#: footer.php:8
+#, php-format
+msgid "%1$s and %2$s."
+msgstr "%1$s או %2$s."
+
+#: footer.php:8
+msgid "Entries (RSS)"
+msgstr "פיד RSS לפוסטים"
+
+#: footer.php:8
+msgid "Comments (RSS)"
+msgstr "פיד RSS לתגובות"
+
+#: footer.php:9
+#, php-format
+msgid "%d queries. %s seconds."
+msgstr "%d queries. %s seconds."
+
+#: functions.php:149
+msgid "Customize Header"
+msgstr "התאמה אישית של הכותרת"
+
+#: functions.php:149
+#: functions.php:364
+msgid "Header Image and Color"
+msgstr "התאמה אישית לכותרת"
+
+#: functions.php:162
+msgid "Close Color Picker"
+msgstr "לסגור את בוחר הצבעים"
+
+#: functions.php:360
+msgid "Options saved."
+msgstr "האפשרויות נשמרו."
+
+#: functions.php:377
+#: functions.php:384
+msgid "Save"
+msgstr "לשמור"
+
+#: functions.php:378
+msgid "Font Color:"
+msgstr "צבע האות:"
+
+#: functions.php:378
+#, php-format
+msgid "Any CSS color (%s or %s or %s)"
+msgstr "כל סוג של צבע CSS&rlm; (%s or %s or %s)"
+
+#: functions.php:379
+msgid "Upper Color:"
+msgstr "צבע עליון:"
+
+#: functions.php:379
+#: functions.php:380
+#, php-format
+msgid "HEX only (%s or %s)"
+msgstr "HEX בלבד (%s או %s)"
+
+#: functions.php:380
+msgid "Lower Color:"
+msgstr "צבע תחתון:"
+
+#: functions.php:382
+msgid "Toggle Text"
+msgstr "להציג/להסתיר את הטקסט (פנימי)"
+
+#: functions.php:383
+msgid "Use Defaults"
+msgstr "לחזור לברירות המחדל"
+
+#: functions.php:392
+msgid "Font Color"
+msgstr "צבע הפונט"
+
+#: functions.php:393
+msgid "Upper Color"
+msgstr "צבע עליון"
+
+#: functions.php:394
+msgid "Lower Color"
+msgstr "צבע תחתון"
+
+#: functions.php:395
+msgid "Revert"
+msgstr "לחזור להגדרות הקודמות"
+
+#: functions.php:396
+msgid "Advanced"
+msgstr "אפשרויות נוספות"
+
+#: functions.php:403
+msgid "Update Header &raquo;"
+msgstr "לשמור את השינויים &raquo;"
+
+#: functions.php:409
+msgid "Font Color (CSS):"
+msgstr "צבע עליון (CSS):"
+
+#: functions.php:410
+msgid "Upper Color (HEX):"
+msgstr "צבע עליון (HEX):"
+
+#: functions.php:411
+msgid "Lower Color (HEX):"
+msgstr "צבע תחתון (HEX):"
+
+#: functions.php:412
+msgid "Select Default Colors"
+msgstr "לחזור לברירות המחדל (רקע כחול/אותיות לבנות)"
+
+#: functions.php:413
+msgid "Toggle Text Display"
+msgstr "להציג/להסתיר את הטקסט"
+
+#: header.php:13
+#, php-format
+msgid "%s RSS Feed"
+msgstr "%s פיד RSS"
+
+#: image.php:25
+#, php-format
+msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+msgstr "הפוסט הזה נכתב ב-%1$s בשעה %2$s, תחת %3$s."
+
+#: image.php:58
+#: single.php:58
+msgid "Sorry, no posts matched your criteria."
+msgstr "לא מצאתי פה שום דבר כזה."
+
+#: index.php:30
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "לא מצאתי את מה שחיפשת."
+
+#: links.php:11
+msgid "Links:"
+msgstr "קישורים:"
+
+#: page.php:9
+msgid "Read the rest of this page &raquo;"
+msgstr "לקרוא את ההמשך &raquo;"
+
+#: search.php:7
+msgid "Search Results"
+msgstr "תוצאות החיפוש"
+
+#: search.php:33
+msgid "No posts found. Try a different search?"
+msgstr "לא מצאתי פוסטים מתאימים. רוצה לנסות חיפוש אחר?"
+
+#: searchform.php:2
+msgid "Search for:"
+msgstr "חיפוש:"
+
+#: searchform.php:4
+msgid "Search"
+msgstr "לחפש"
+
+#: sidebar.php:11
+msgid "Author"
+msgstr "מאת"
+
+#: sidebar.php:22
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "זהו ארכיון הפוסטים בקטגוריה %s."
+
+#: sidebar.php:25
+#, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the day %3$s."
+msgstr "זהו ארכיון הפוסטים בבלוג <a href=\"%1$s/\">%2$s</a> מהתאריך %3$s."
+
+#: sidebar.php:28
+#, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for %3$s."
+msgstr "זהו ארכיון הפוסטים בבלוג <a href=\"%1$s/\">%2$s</a> מהחודש %3$s."
+
+#: sidebar.php:31
+#, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the year %3$s."
+msgstr "זהו ארכיון הפוסטים בבלוג <a href=\"%1$s/\">%2$s</a> מהשנה %3$s."
+
+#: sidebar.php:34
+#, php-format
+msgid "You have searched the <a href=\"%1$s/\">%2$s</a> blog archives for <strong>&#8216;%3$s&#8217;</strong>. If you are unable to find anything in these search results, you can try one of these links."
+msgstr "אלו תוצאות החיפוש <strong>\"%3$s\"</strong> בארכיון הבלוג <a href=\"%1$s/\">%2$s</a>. אם לא מצאת את מה שחיפשת, אולי זה נמצא באחד הקישורים הבאים."
+
+#: sidebar.php:37
+#, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives."
+msgstr "זהו ארכיון הפוסטים בבלוג <a href=\"%1$s/\">%2$s</a>."
+
+#: sidebar.php:43
+msgid "Pages"
+msgstr "עמודים"
+
+#: sidebar.php:45
+msgid "Archives"
+msgstr "ארכיון"
+
+#: sidebar.php:51
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: sidebar.php:56
+msgid "Meta"
+msgstr "כלים"
+
+#: sidebar.php:60
+msgid "Syndicate this site using RSS 2.0"
+msgstr "פיד RSS 2.0 עם הפוסטים מהבלוג הזה"
+
+#: sidebar.php:60
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "פיד <abbr title=\"Really Simple Syndication\">RSS</abbr> לפוסטים"
+
+#: sidebar.php:61
+msgid "The latest comments to all posts in RSS"
+msgstr "התגובות האחרונות לכל הסיפורים, ב-RSS"
+
+#: sidebar.php:61
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "תגובות ב-<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: sidebar.php:62
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "עמוד זה תואם לתקן XHTML 1.0 Transitional"
+
+#: sidebar.php:62
+msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "<abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr> תקני"
+
+#: sidebar.php:63
+msgid "XHTML Friends Network"
+msgstr "XHTML Friends Network"
+
+#: sidebar.php:63
+msgid "XFN"
+msgstr "XFN"
+
+#: sidebar.php:64
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "פועל על וורדפרס בעברית, מערכת אישית בקוד פתוח לניהול בלוגים עצמאיים. "
+
+#: single.php:46
+msgid "Edit this entry"
+msgstr "לערוך את הפוסט הזה"
+
+#~ msgid "comments-link|HTML class for comments link"
+#~ msgstr "comments-link"
+
