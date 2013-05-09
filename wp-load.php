@@ -1,4 +1,4 @@
-<?php // WPH - Localized error message
+<?php
 /**
  * Bootstrap file for setting the ABSPATH constant
  * and loading the wp-config.php file. The wp-config.php
@@ -13,22 +13,24 @@
  * directory to allow the WordPress directory to remain
  * untouched.
  *
+ * @internal This file must be parsable by PHP4.
+ *
  * @package WordPress
  */
 
-/** Define ABSPATH as this files directory */
+/** Define ABSPATH as this file's directory */
 define( 'ABSPATH', dirname(__FILE__) . '/' );
 
-error_reporting(E_ALL ^ E_NOTICE ^ E_USER_NOTICE);
+error_reporting( E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_ERROR | E_WARNING | E_PARSE | E_USER_ERROR | E_USER_WARNING | E_RECOVERABLE_ERROR );
 
 if ( file_exists( ABSPATH . 'wp-config.php') ) {
 
 	/** The config file resides in ABSPATH */
 	require_once( ABSPATH . 'wp-config.php' );
 
-} elseif ( file_exists( dirname(ABSPATH) . '/wp-config.php' ) ) {
+} elseif ( file_exists( dirname(ABSPATH) . '/wp-config.php' ) && ! file_exists( dirname(ABSPATH) . '/wp-settings.php' ) ) {
 
-	/** The config file resides one level below ABSPATH */
+	/** The config file resides one level above ABSPATH but is not part of another install */
 	require_once( dirname(ABSPATH) . '/wp-config.php' );
 
 } else {
@@ -36,16 +38,26 @@ if ( file_exists( ABSPATH . 'wp-config.php') ) {
 	// A config file doesn't exist
 
 	// Set a path for the link to the installer
-	if (strpos($_SERVER['PHP_SELF'], 'wp-admin') !== false) $path = '';
-	else $path = 'wp-admin/';
+	if ( strpos($_SERVER['PHP_SELF'], 'wp-admin') !== false )
+		$path = 'setup-config.php';
+	else
+		$path = 'wp-admin/setup-config.php';
+
+	define( 'WPINC', 'wp-includes' );
+	define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' );
+	require_once( ABSPATH . WPINC . '/load.php' );
+	require_once( ABSPATH . WPINC . '/version.php' );
+
+	wp_check_php_mysql_versions();
+	wp_load_translations_early();
+
+	require_once( ABSPATH . WPINC . '/functions.php' );
 
 	// Die with an error message
-	require_once( ABSPATH . '/wp-includes/classes.php' );
-	require_once( ABSPATH . '/wp-includes/functions.php' );
-	require_once( ABSPATH . '/wp-includes/plugin.php' );
-	  wp_die("<p>לא מצאתי את הקובץ <code>wp-config.php</code>. אני צריכה אותו בשביל להתחיל. אפשר ליצור אותו <a href='{$path}setup-config.php'> עם הטופס הזה</a> (זה לא עובד בכל המקרים), או ידנית לפי ההוראות בקובץ <a href=\"readme.html\">readme.html</a>. הדרך הבטוחה ביותר היא ליצור את הקובץ ידנית. רוצה עוד עזרה? <a href='http://docs.wph.co.il/wiki/%D7%A2%D7%A8%D7%99%D7%9B%D7%AA_%D7%A7%D7%95%D7%91%D7%A5_%D7%94%D7%94%D7%92%D7%93%D7%A8%D7%95%D7%AA'>פה יש הרבה</a>.</p>
-<p><a href='{$path}setup-config.php' class='button'>ליצירת קובץ הגדרות &raquo;</a></p>", "וורדפרס בעברית &rsaquo; בעיה"); // WPH - Localized error message
+	$die  = __( "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started." ) . '</p>';
+	$die .= '<p>' . __( "Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>." ) . '</p>';
+	$die .= '<p>' . __( "You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file." ) . '</p>';
+	$die .= '<p><a href="' . $path . '" class="button button-large">' . __( "Create a Configuration File" ) . '</a>';
 
+	wp_die( $die, __( 'WordPress &rsaquo; Error' ) );
 }
-
-?>
